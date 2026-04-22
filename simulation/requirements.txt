@@ -1,0 +1,4 @@
+sumolib==1.21.0
+traci==1.21.0
+sumo-rl==1.4.3
+redis==5.0.1

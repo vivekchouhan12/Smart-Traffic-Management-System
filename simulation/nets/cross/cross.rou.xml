@@ -1,0 +1,7 @@
+<routes>
+    <vType id="car" accel="0.8" decel="4.5" sigma="0.5" length="5" minGap="2.5" maxSpeed="15"/>
+    <flow id="flow_n2s" type="car" begin="0" end="3600" probability="0.1" from="A1A0" to="A0B0"/>
+    <flow id="flow_s2n" type="car" begin="0" end="3600" probability="0.1" from="B0A0" to="A0A1"/>
+    <flow id="flow_e2w" type="car" begin="0" end="3600" probability="0.1" from="B1B0" to="B0A0"/>
+    <flow id="flow_w2e" type="car" begin="0" end="3600" probability="0.1" from="A0B0" to="B0B1"/>
+</routes>
